@@ -35,6 +35,7 @@ public class C21WindowsHandle02 extends TestBase {
         //    Open https://clarusway.com/ in the last window
         driver.switchTo().window(handle03).get("https://clarusway.com/");
 
+
         //    Open https://www.youtube.com/ in the first tab
         driver.switchTo().window(handle01).get("https://www.youtube.com/");
 

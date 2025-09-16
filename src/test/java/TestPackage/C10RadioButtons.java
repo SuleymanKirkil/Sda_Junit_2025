@@ -26,6 +26,7 @@ public class C10RadioButtons {
       // Then click on the radio buttons.
 
        WebElement femaleButton = driver.findElement(By.xpath("//span[.='Female']"));
+
        femaleButton.click();
         Assertions.assertTrue(femaleButton.isSelected());
 
