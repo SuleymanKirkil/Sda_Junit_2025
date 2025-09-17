@@ -1,6 +1,8 @@
 package utilities;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.OutputType;
@@ -8,6 +10,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
@@ -45,10 +48,13 @@ Key points:
      which keeps our code shorter, cleaner, and easier to maintain.
 */
 
-public abstract class TestBase {
-    protected static WebDriver driver;
+public abstract class TestBaseWithActionHelper {
+    protected  WebDriver driver;
+    protected WebDriverWait wait;
+    protected Logger logger;
     @BeforeEach
     void setUp() {
+        logger = LogManager.getLogger(TestBaseWithActionHelper.class);
         driver= new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();

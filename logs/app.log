@@ -1,0 +1,6 @@
+12:16:34 [main] [30mTRACE[m [34mTRACE: Very detailed debugging message (usually not used).[m
+12:16:34 [main] [34mDEBUG[m [34mDEBUG: Debugging information like variable values, method calls.[m
+12:16:34 [main] [32mINFO [m [34mINFO: General informational message about the application.[m
+12:16:34 [main] [33mWARN [m [34mWARN: A potential problem has been detected![m
+12:16:34 [main] [31mERROR[m [34mERROR: An error occurred, but the application continues running.[m
+12:16:34 [main] [31mFATAL[m [34mFATAL: Critical error, application may crash![m

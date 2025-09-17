@@ -1,0 +1,61 @@
+2025-09-17 12:19:17.886 | DEBUG | [main] | TestPackage.C50Log4J2 | DEBUG: Debugging information like variable values, method calls.
+2025-09-17 12:19:17.889 | INFO  | [main] | TestPackage.C50Log4J2 | INFO: General informational message about the application.
+2025-09-17 12:19:17.889 | WARN  | [main] | TestPackage.C50Log4J2 | WARN: A potential problem has been detected!
+2025-09-17 12:19:17.889 | ERROR | [main] | TestPackage.C50Log4J2 | ERROR: An error occurred, but the application continues running.
+2025-09-17 12:19:17.889 | FATAL | [main] | TestPackage.C50Log4J2 | FATAL: Critical error, application may crash!
+2025-09-17 12:25:47.909 | DEBUG | [main] | org.apache.poi.openxml4j.opc.PackageRelationshipCollection | Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-09-17 12:25:47.912 | DEBUG | [main] | org.apache.poi.openxml4j.opc.PackageRelationshipCollection | Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-09-17 12:25:47.926 | DEBUG | [main] | org.apache.poi.openxml4j.opc.PackageRelationshipCollection | Parsing relationship: /_rels/.rels
+2025-09-17 12:25:48.145 | DEBUG | [main] | org.apache.poi.openxml4j.opc.PackageRelationshipCollection | Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-09-17 12:25:48.146 | DEBUG | [main] | org.apache.poi.openxml4j.opc.PackageRelationshipCollection | Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-09-17 12:25:48.147 | DEBUG | [main] | org.apache.poi.openxml4j.opc.PackageRelationshipCollection | Parsing relationship: /_rels/.rels
+2025-09-17 12:27:07.287 | DEBUG | [main] | org.apache.poi.openxml4j.opc.PackageRelationshipCollection | Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-09-17 12:27:07.289 | DEBUG | [main] | org.apache.poi.openxml4j.opc.PackageRelationshipCollection | Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-09-17 12:27:07.300 | DEBUG | [main] | org.apache.poi.openxml4j.opc.PackageRelationshipCollection | Parsing relationship: /_rels/.rels
+2025-09-17 12:27:07.364 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-09-17 12:27:07.366 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-09-17 12:27:07.367 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-09-17 12:27:07.367 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-09-17 12:27:07.367 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-09-17 12:27:07.368 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-09-17 12:27:07.374 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-09-17 12:27:07.375 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-09-17 12:27:07.391 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-09-17 12:27:07.391 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-09-17 12:27:07.392 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-09-17 12:27:07.392 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-09-17 12:27:07.393 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-09-17 12:27:07.393 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-09-17 12:27:07.448 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-09-17 12:27:07.449 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle themefd26doctype
+2025-09-17 12:27:07.478 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle stylesheet5d8bdoctype
+2025-09-17 12:27:07.482 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctstylesheet4257type
+2025-09-17 12:27:07.484 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctnumfmtsb58btype
+2025-09-17 12:27:07.485 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctfonts6623type
+2025-09-17 12:27:07.488 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctfont14d8type
+2025-09-17 12:27:07.492 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctfills2c6ftype
+2025-09-17 12:27:07.493 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctfill550ctype
+2025-09-17 12:27:07.494 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctborders0d66type
+2025-09-17 12:27:07.497 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctborderf935type
+2025-09-17 12:27:07.499 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctcellxfs1322type
+2025-09-17 12:27:07.500 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctxf97f7type
+2025-09-17 12:27:07.502 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctcellstylexfsa81ftype
+2025-09-17 12:27:07.504 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctdxfsb26atype
+2025-09-17 12:27:07.505 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle sstf81fdoctype
+2025-09-17 12:27:07.511 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctsst44f3type
+2025-09-17 12:27:07.519 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctrsta472type
+2025-09-17 12:27:07.530 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctdrawing2748type
+2025-09-17 12:27:07.534 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle workbookec17doctype
+2025-09-17 12:27:07.537 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctworkbook83c3type
+2025-09-17 12:27:07.543 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctsheets49fdtype
+2025-09-17 12:27:07.545 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctsheet4dbetype
+2025-09-17 12:27:07.547 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle strelationshipid1e94type
+2025-09-17 12:27:07.548 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle worksheetf539doctype
+2025-09-17 12:27:07.550 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctworksheet530dtype
+2025-09-17 12:27:07.553 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctcols627ctype
+2025-09-17 12:27:07.559 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctsheetdata8408type
+2025-09-17 12:27:07.561 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctrowdd39type
+2025-09-17 12:27:07.565 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle ctcell842btype
+2025-09-17 12:27:07.574 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle stcellrefe4e0type
+2025-09-17 12:27:07.587 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle stcelltypebf95type
+2025-09-17 12:27:07.589 | TRACE | [main] | org.apache.xmlbeans.impl.common.XBeanDebug | Resolving type for handle stxstringf179type
