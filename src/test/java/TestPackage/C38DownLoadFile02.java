@@ -33,7 +33,7 @@ public class C38DownLoadFile02 extends TestBase {
         driver.findElement(By.xpath("//*[.='Download']")).click();
         Thread.sleep(3000);
 
-        Path filePath = Path.of(System.getProperty("user.home"),"Downloads","importData(1).csv");
+        Path filePath = Path.of(System.getProperty("user.home"),"Downloads","importData.csv");
         //Verify if the file downloaded successfully.
         Assertions.assertTrue(Files.exists(filePath));
 

@@ -50,19 +50,22 @@ Key points:
 
 public abstract class TestBaseWithActionHelper {
     protected  WebDriver driver;
-    protected WebDriverWait wait;
     protected Logger logger;
+    protected ActionHelper actionHelper;
     @BeforeEach
     void setUp() {
         logger = LogManager.getLogger(TestBaseWithActionHelper.class);
         driver= new ChromeDriver();
+        logger.info("Chrome browser is initialized ...");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
+        actionHelper= new ActionHelper(driver);
     }
 
     @AfterEach
     void tearDown() {
         driver.quit();
+        logger.info("Chrome brpwser is closed...");
     }
 
     protected void takeScreenShot(WebDriver driver) {

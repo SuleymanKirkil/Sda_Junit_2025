@@ -44,7 +44,7 @@
     <!-- Loggers: Hangi log seviyesinde, hangi appender'ların kullanılacağını belirtir -->
     <Loggers>
         <!-- Root Logger: Tüm loglar için geçerli ayarlar -->
-        <Root level="info">
+        <Root level="warn">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="RollingFile"/>
         </Root>
